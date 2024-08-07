@@ -102,6 +102,8 @@
     display: flex;
     align-items: center;
     margin-left:30px;
+    margin: 0 auto;
+    max-width: 1440px;
     justify-content: space-around;
     color: #727272;
   }
@@ -124,8 +126,8 @@
     display: flex;
     justify-content: space-around;
     margin-top: 130px;
-    margin-left: 30px;
-    max-width: 100%;
+    margin:0 auto;
+    max-width: 1440px;
   }
   .para{
     max-width: 100%;
@@ -161,7 +163,7 @@
     flex-direction: column;
   }
   #small{
-    font-size: small;
+       font-size: 25px;
   }
   .btn-second{
     border: 1px solid rgba(255, 255, 255, 0.397);
@@ -171,6 +173,94 @@
     background-color: rgb(255, 182, 24);
     color: white;
     font-size: 45px;
+  }
+  .cardbox{
+    margin: 0 auto;
+    max-width: 1440px;
+
+    
+  }
+  .card{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+    margin: auto;
+    margin-bottom: 50px;
+
+  }
+  .fact{
+    height: 15rem;
+    width: 15rem;
+    grid-template-columns: repeat(4, 1fr);
+    border: 1px solid orange;
+    gap: 1.5rem;
+    text-align: center;
+    align-items: center;
+    margin: 30px 30px;
+    max-width: 100%;
+    
+    
+
+  }
+  #align{
+    align-items: center;
+    margin: auto;
+
+    
+  }
+  .card>.fact>img{
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    max-width: 100%;
+  }
+  .cardboxinfo{
+    margin: 40px 1px;
+  }
+  .sf{
+    font-weight: 600;
+    font-size: 2.5rem;
+  }
+  h4{
+    font-size: 2rem;
+    margin: 5px 5px;
+  }
+  h5{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin: 5px 5px;
+
+  }
+  .sec3{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  .info{
+    max-width: 500px;
+    margin: 50px auto;
+
+  }
+  .sponsors{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    
+  }
+  .info>h1{
+    font-size: 2.5rem;
+    font-weight: 600px;
+  }
+  .foot{
+    border: 1px solid rgba(116, 109, 109, 0.719);
+    background-color: rgb(253, 207, 247);
+    max-width: 1440px;
+    max-height: 100px;
+    text-align: center;
+    align-items: center;
+    margin: auto;
   }
   @media  screen and (max-width: 576px;) {
     .
